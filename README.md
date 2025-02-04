@@ -10,6 +10,20 @@ anchor-go --src=/path/to/idl.json
 
 Generated Code will be generated and saved to `./generated/`.
 
+## build
+
+### Windows
+```bash
+go build -o anchor-go.exe
+cp anchor-go.exe {$GOPATH}/bin/anchor-go.exe 
+```
+
+### Linux
+```bash
+go build -o anchor-go 
+```
+
+
 ## TODO
 
 - [x] instructions

@@ -5,8 +5,8 @@ import (
 	"path"
 	"strings"
 
+	"github.com/alphabatem/anchor-go/sighash"
 	. "github.com/dave/jennifer/jen"
-	"github.com/gagliardetto/anchor-go/sighash"
 	"github.com/gagliardetto/solana-go"
 	. "github.com/gagliardetto/utilz"
 )
